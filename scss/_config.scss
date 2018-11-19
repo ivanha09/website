@@ -1,5 +1,5 @@
-$primary-color: #E8FFFE;
-$secondary-color: #135769;
+$primary-color: #fff;
+$secondary-color: #918C80;
 $show-home-image: true;
 $home-image: url(../img/background.jpg);
 $background-opacity: 0.9;
@@ -32,7 +32,7 @@ $background-opacity: 0.9;
 // Set Text Color
 @function set-text-color($color) {
     @if (lightness($color) > 40) {
-        @return #000;
+        @return #5F5C4A;
     } @else {
         @return #fff;
     }
